@@ -137,7 +137,6 @@ BOARD_PRODUCTIMAGE_MINIMAL_PARTITION_RESERVED_SIZE := false
 -include vendor/lineage/config/BoardConfigReservedSize.mk
 
 # Platform
-BOARD_VENDOR := xiaomi
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := kona
 
