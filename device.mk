@@ -307,6 +307,7 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
     com.android.nfc_extras \
     SecureElement \
+    nqnfcinfo \
     Tag
 
 PRODUCT_PACKAGES += \
