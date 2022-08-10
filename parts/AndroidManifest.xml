@@ -25,7 +25,7 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-
+    <uses-permission android:name="android.permission.ACCESS_SURFACE_FLINGER" />
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="@string/device_settings_app_name"
