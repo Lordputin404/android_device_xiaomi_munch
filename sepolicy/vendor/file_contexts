@@ -84,7 +84,7 @@
 /dev/xiaomi-touch                                                                                   u:object_r:vendor_touchfeature_device:s0
 
 # Ultrasound devices
-/dev/elliptic[0-9]+                                                                                 u:object_r:ultrasound_device:s0
+/dev/elliptic(.*)?                                                                                  u:object_r:ultrasound_device:s0
 /dev/mius(.*)?                                                                                      u:object_r:ultrasound_device:s0
 
 # Wakeup source stats
