@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020-2022 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Cấu Hình Thermal</string>
+    <string name="thermal_summary">Điều chỉnh các cấu hình thermal cho từng ứng dụng để đạt hiệu suất tối ưu</string>
+    <string name="thermal_default">Mặc định</string>
+    <string name="thermal_benchmark">Đánh giá hiệu năng</string>
+    <string name="thermal_browser">Trình duyệt</string>
+    <string name="thermal_camera">Máy ảnh</string>
+    <string name="thermal_dialer">Trình gọi</string>
+    <string name="thermal_gaming">Chơi game</string>
+    <string name="thermal_streaming">Phát trực tuyến</string>
+
+    <!-- Touch Control Settings -->
+    <string name="touch_control_title">Tùy chỉnh độ nhạy cử chỉ chạm cảm ứng</string>
+    <string name="touch_game_mode_title">Bật</string>
+    <string name="touch_response_title">Độ nhạy</string>
+    <string name="touch_response_summary">Tùy chỉnh độ nhạy cảm ứng</string>
+    <string name="touch_sensitivity_title">Độ nhạy cảm ứng</string>
+    <string name="touch_sensitivity_summary">Tùy chỉnh độ nhạy cảm ứng cho các lần chạm lặp lại</string>
+    <string name="touch_resistant_title">Khu vực chống chạm</string>
+    <string name="touch_resistant_summary">Giảm độ nhạy cảm ứng gần các cạnh để tránh kích hoạt điều khiển cảm ứng</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Làm sạch loa</string>
+    <string name="clear_speaker_summary">Phát âm thanh trong 30 giây để làm sạch loa</string>
+    <string name="clear_speaker_description">Chạy tính năng này một hoặc hai lần nếu bạn thấy loa bị chặn bởi bụi. Đặt âm lượng phát lại tối đa.\n\nNếu loa bị chặn nhiều, chạy tính năng này 2-5 lần trong khi lắc thiết bị với loa hướng xuống.\n\nCẢNH BÁO: Đảm bảo không có tai nghe nào cắm vào.</string>
+</resources>
