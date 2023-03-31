@@ -101,6 +101,9 @@ TARGET_KERNEL_CONFIG := vendor/munch_defconfig
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
 
+# Miui Camera
+TARGET_INCLUDES_MIUI_CAMERA := true
+
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := munch,munch_global,munch_in
 
