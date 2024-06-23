@@ -167,6 +167,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+PRODUCT_PACKAGES += \
+    liblz4.vendor
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
