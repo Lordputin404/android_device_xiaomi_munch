@@ -265,16 +265,6 @@ vendor/lib64/camera/com.qti.sensormodule.munch_sunny_ov64b40_wide.bin
 vendor/lib64/camera/com.qti.sensormodule.munch_ofilm_imx582_wide.bin|2e2c737b926f67859917f5067fdc8027eac83c08
 
 # Camera (CamX)
-vendor/lib/libcamxexternalformatutils.so
-vendor/lib/libcamxfacialfeatures.so
-vendor/lib/libcamxfdalgo.so
-vendor/lib/libcamxfdengine.so
-vendor/lib/libcamxifestriping.so
-vendor/lib/libcamximageformatutils.so
-vendor/lib/libcamxncs.so
-vendor/lib/libcamxstatscore.so
-vendor/lib/libcamxswprocessalgo.so
-vendor/lib/libcamxtintlessalgo.so
 vendor/lib64/libcamxexternalformatutils.so
 vendor/lib64/libcamxfacialfeatures.so
 vendor/lib64/libcamxfdalgo.so
