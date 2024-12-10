@@ -68,6 +68,19 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libcrypto_shim.so'),
     'vendor/etc/seccomp_policy/atfwd@2.0.policy': blob_fixup()
         .add_line_if_missing('gettid: 1'),
+    (
+        'vendor/lib64/libMIAIHDRhvx_interface.so',
+        'vendor/lib64/libarcsoft_hdrplus_hvx_stub.so',
+    ): blob_fixup()
+        .clear_symbol_version('remote_handle_close')
+        .clear_symbol_version('remote_handle_invoke')
+        .clear_symbol_version('remote_handle_open'),
+    (
+        'vendor/lib64/libarcsoft_super_night_raw.so',
+    ) : blob_fixup()
+        .clear_symbol_version('rpcmem_alloc')
+        .clear_symbol_version('rpcmem_free')
+        .clear_symbol_version('rpcmem_to_fd'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
