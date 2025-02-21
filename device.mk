@@ -155,6 +155,9 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set_bool,camera,override_format_from_reserved,true)
 
+# Camera
+$(call soong_config_set,camera,ext_lib,libcameraservice_extension.xiaomi_sm8250)
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
