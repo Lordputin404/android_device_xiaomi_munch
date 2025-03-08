@@ -49,8 +49,7 @@ function lib_to_package_fixup_vendor_variants() {
             echo "${1}_vendor"
             ;;
             libgrallocutils | \
-            libwfdaac_vendor | \
-            libwpa_client) ;;
+            libwfdaac_vendor) ;;
         *)
             return 1
             ;;
