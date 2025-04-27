@@ -59,6 +59,9 @@ WITH_DEXPREOPT := true
 DEX_PREOPT_DEFAULT := generate-vdex-and-image
 WITH_DEXPREOPT_DEBUG_INFO := false
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/configs/bluetooth/include
+
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/configs/board-info.txt
 
