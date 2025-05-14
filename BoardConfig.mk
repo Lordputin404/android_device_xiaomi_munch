@@ -61,9 +61,6 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/configs/board-info.txt
 TARGET_BOOTLOADER_BOARD_NAME := kona
 TARGET_NO_BOOTLOADER := true
 
-# Camera
-TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
-
 # Camera Malloc
 MALLOC_SVELTE_FOR_LIBC32 := true
 
@@ -75,9 +72,6 @@ TARGET_NO_RAW10_CUSTOM_FORMAT := true
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/fs/config.fs
-
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_munch
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 3
@@ -96,9 +90,6 @@ TARGET_KERNEL_CONFIG := vendor/munch_defconfig
 # Kernel Clang Flags
 KERNEL_CC := CC=clang
 override KERNEL_TOOLCHAIN_PREFIX_arm := arm-linux-android-
-
-# Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
 
 # Media
 TARGET_USES_ION := true
