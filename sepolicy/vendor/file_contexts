@@ -24,9 +24,6 @@
 /sys/devices/platform/soc/soc:qcom,dsi-display/hbm                                                            u:object_r:vendor_sysfs_graphics:s0
 /sys/devices/platform/soc/soc:qcom,dsi-display/msm_fb_ea_enable                                               u:object_r:vendor_sysfs_graphics:s0
 
-# Fastcharge HAL
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.fastcharge@[0-9]\.[0-9]-service\.xiaomi_munch          u:object_r:hal_lineage_fastcharge_default_exec:s0
-
 # Fingerprint
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.xiaomi                           u:object_r:hal_fingerprint_default_exec:s0
 
