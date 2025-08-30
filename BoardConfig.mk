@@ -99,9 +99,6 @@ TARGET_KERNEL_CONFIG := vendor/munch_defconfig
 KERNEL_CC := CC=clang
 override KERNEL_TOOLCHAIN_PREFIX_arm := arm-linux-android-
 
-# Media
-TARGET_USES_ION := true
-
 # Miui Camera
 TARGET_INCLUDES_MIUI_CAMERA := true
 
