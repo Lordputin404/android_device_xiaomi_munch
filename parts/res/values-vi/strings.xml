@@ -60,4 +60,12 @@
     <string name="dc_dimming_enable_summary">Giảm mỏi mắt trong điều kiện ánh sáng yếu</string>
     <string name="dc_dimming_enable_summary_not_supported">DC Dimming hiện chưa được kernel hỗ trợ</string>
     <string name="dc_dimming_disable_hbm_first">Vui lòng tắt High Brightness Mode trước khi bật DC Dimming</string>
+
+    <!-- Per-app refresh rate -->
+    <string name="refresh_title">Tần số quét theo từng ứng dụng</string>
+    <string name="refresh_summary">Đặt tần số quét tối đa cho từng ứng dụng cụ thể</string>
+    <string name="refresh_default">Mặc định</string>
+    <string name="refresh_standard">60Hz</string>
+    <string name="refresh_extreme">120Hz</string>
+    <string name="refresh_land">60Hz khi xoay ngang</string>   
 </resources>
