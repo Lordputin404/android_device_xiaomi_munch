@@ -14,7 +14,17 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-PRODUCT_NAME := lineage_munch
+TARGET_ENABLE_BLUR := true
+AXION_CAMERA_REAR_INFO := 64,8,2
+AXION_CAMERA_FRONT_INFO := 20
+AXION_MAINTAINER := LordPutin
+AXION_PROCESSOR := Snapdragon®_870_5G
+PERF_GOV_SUPPORTED := true
+PERF_DEFAULT_GOV := schedutil
+PERF_ANIM_OVERRIDE := true
+TARGET_INCLUDES_LOS_PREBUILTS := true
+
+PRODUCT_NAME := axion_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Poco
