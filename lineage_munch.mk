@@ -14,7 +14,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-PRODUCT_NAME := lineage_munch
+AVIUM_MAINTAINER ?= LordPutin
+AVIUM_SETTINGS_SOC_MODEL_NAME ?= Poco F4
+AVIUM_SETTINGS_DEVICE_CODENAME ?= munch
+WITH_GMS ?= true
+AVIUM_FORCE_SET_FAKE_PROP ?= true
+TARGET_FORCE_ENABLE_BLUR ?= true
+
+PRODUCT_NAME := avium_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Poco
