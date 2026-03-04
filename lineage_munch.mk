@@ -14,6 +14,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
+TARGET_DISABLE_EPPE := true
+TARGET_OPTIMIZED_DEXOPT := true
+WITH_GMS := true
+WITH_BCR := true
+TARGET_USE_GPHOTOS := false
+USE_ADVANCED_DISPLAY_COLOR := true
+USE_REALITY_ENGINE := true
+
 PRODUCT_NAME := lineage_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
