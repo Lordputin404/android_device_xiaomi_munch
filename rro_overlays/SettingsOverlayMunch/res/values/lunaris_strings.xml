@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <!-- About device screen, build maintainer -->
+     <string name="lunaris_device_message">POCO F4</string>
+     <string name="lunaris_processor_code_message">Snapdragon® 870 5G</string>
+     <string name="lunaris_battery_type_message">4500 mAh</string>
+     <string name="lunaris_screen_message">AMOLED 120Hz</string>
+ </resources>
