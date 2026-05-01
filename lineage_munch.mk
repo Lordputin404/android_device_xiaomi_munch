@@ -14,6 +14,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
+TARGET_HAS_UDFPS := false
+TARGET_SUPPORTS_BLUR := true
+TARGET_EXCLUDES_AUDIOFX := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BUILD_PACKAGE := 3
+ALPHA_BUILD_TYPE := UnOfficial
+ALPHA_MAINTAINER := LordPutin
+
 PRODUCT_NAME := lineage_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
