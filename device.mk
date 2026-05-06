@@ -16,6 +16,9 @@ $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/miuicamera.mk)
 # Call the Dolby setup
 $(call inherit-product, hardware/dolby/dolby.mk)
 
+# GameBar Performance Overlay
+$(call inherit-product, packages/apps/GameBar/gamebar.mk)
+
 # Private key for signed build
 -include vendor/private-keys/keys/keys.mk
 
