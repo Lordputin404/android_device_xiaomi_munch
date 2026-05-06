@@ -19,6 +19,9 @@ ifeq ($(TARGET_USES_DOLBY),true)
 $(call inherit-product, hardware/dolby/dolby.mk)
 endif
 
+# GameBar Performance Overlay
+$(call inherit-product, packages/apps/GameBar/gamebar.mk)
+
 # Private key for signed build
 -include vendor/private-keys/keys/keys.mk
 
