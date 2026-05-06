@@ -22,6 +22,9 @@ endif
 # TouchServices
 $(call inherit-product, packages/apps/TouchServices/touchservice.mk)
 
+# GameBar Performance Overlay
+$(call inherit-product, packages/apps/GameBar/gamebar.mk)
+
 # Private key for signed build
 -include vendor/private-keys/keys/keys.mk
 
