@@ -14,6 +14,21 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
+TARGET_ENABLE_BLUR := true
+AXION_CAMERA_REAR_INFO := 64,8,2
+AXION_CAMERA_FRONT_INFO := 20
+AXION_PROCESSOR := Snapdragon®_870_5G
+AXION_MAINTAINER := LordPutin
+PERF_ANIM_OVERRIDE := false
+TARGET_SUPPORTED_REFRESH_RATES := 60,120
+TARGET_INCLUDE_GOOGLE_TELECOMM := false
+TARGET_INCLUDE_PARTNER_SETUP := true
+PERF_GOV_SUPPORTED := true
+PERF_DEFAULT_GOV := schedutil
+BYPASS_CHARGE_SUPPORTED := true
+TARGET_INCLUDE_AXFX := true
+TARGET_INCLUDES_LOS_PREBUILTS := true
+
 PRODUCT_NAME := lineage_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
