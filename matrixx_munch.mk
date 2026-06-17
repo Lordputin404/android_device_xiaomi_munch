@@ -9,10 +9,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/matrixx/config/common_full_phone.mk)
 
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
+
+TARGET_DISABLE_EPPE := true
+MATRIXX_MAINTAINER := LordPutin
+WITH_GMS := true
+WITH_BCR := true
+TARGET_OPTIMIZED_DEXOPT := true
+USE_REALITY_ENGINE := true
 
 PRODUCT_NAME := lineage_munch
 PRODUCT_DEVICE := munch
